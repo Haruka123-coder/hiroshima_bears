@@ -2,7 +2,7 @@ name:    Monitor number of bears in Hiroshima
 
 on:
     schedule:
-        - cron: "45 14 12 * *"
+        - cron: "45 13 12 * *"
 
 jobs:
     compare-bears:
