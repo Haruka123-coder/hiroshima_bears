@@ -3,7 +3,7 @@ name:    Monitor number of bears in Hiroshima
 on:
     workflow_dispatch:
     schedule:
-        - cron: "05 14 12 * *"
+        - cron: "0 23 * * *"
 permissions:
   contents: write
 
